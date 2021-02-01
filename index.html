@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<head>
+    <title>In-Picture Game</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+
+<body onload="init()">
+    <div class="game-container">
+        <div class="toolbar">~ ~ Guess What's In-Picture ~ ~</div>
+        <button class="play-again" onclick="playAgain()">Play Again</button>
+        <div class="content-container">
+
+            <table class="board-container" cellpadding="10">
+                <div class="modal"> Try Again! </div>
+                
+                <tbody class="board"> 
+                    <!-- <tr>
+                        <th class="question" onclick="checkAnswer(optIdx)">
+                            <img src="1.jpg" alt="apple">
+                        </th>
+                    </tr>
+                    <tr>
+                        <td class="quest" onclick="checkAnswer(optIdx)">row1</td>
+                    </tr>
+                    <tr>
+                        <td class="quest" onclick="checkAnswer(optIdx)">row2</td>
+                    </tr> -->
+                    <div class="win-modal"> Victorius! </div>
+                </tbody>
+            </table>
+    
+            <!-- <p class="timer">00:00:00</p> -->
+            
+            <!-- <div class="modal">Try Again </div> -->
+        </div>
+</div>
+    <script src="js/main.js"></script>
+    <!-- <script src="js/util.js"></script> -->
+</body>
+
+</html>
